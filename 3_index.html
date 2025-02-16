@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="3_styles.css">
+</head>
+<body>
+    <header>
+        <h1>rock-paper-scissors game</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">google</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">youtube</a></li>
+                <li><a href="https://open.spotify.com/" target="_blank">spotify</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main>
+            <h2>play game</h2>
+            <form>
+                <label for="name">name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="choice">Choose:</label>
+                <select id="choice" name="choice">
+                    <option value="rock">rock</option>
+                    <option value="paper">paper</option>
+                    <option value="scissors">scissors</option>
+                </select>
+                
+                <button type="submit">play</button>
+            </form>
+        </main>
+        
+        <aside>
+            <h2>rules</h2>
+            <p>rock beats scissors</p>
+            <p>scissors beats paper</p>
+            <p>paper beats rock</p>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>rock-paper-scissors game &copy; 2024</p>
+    </footer>
+</body>
+</html>
